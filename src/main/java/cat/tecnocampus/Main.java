@@ -29,7 +29,6 @@ public class Main {
         System.out.println();
         System.out.println("**************************************************");
 
-        Person anotherPerson = new PersonImplementation();
         Person proxyPerson = PersonProxyFactory.getPersonProxy(plainPerson);
 
         System.out.println("*** Going to set to a proxy of person.***");
